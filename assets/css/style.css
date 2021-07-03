@@ -63,3 +63,35 @@ p{
     font-size: 30px;
 }
 
+.card{
+    margin: 45px, 0, 45px, 0;
+       
+}
+.card-body{
+    background: var(--celeste);
+    color: var(--blanco);
+}
+
+.col{
+    margin-top: 15px;
+}
+
+footer{
+    background-color: var(--celeste);
+    padding: 15px;
+    color: var(--blanco);
+    text-align:center;
+}
+
+
+
+.contacto h3{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fab {
+    color: var(--blanco);
+}
+
