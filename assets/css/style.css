@@ -1,0 +1,37 @@
+:root {
+    --celeste: #289dad;
+    --blanco: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lobster", cursive;
+    font-family: "Cabin", sans-serif;
+    background: #000;
+}
+
+.header{
+    min-height: 100vh;
+}
+
+.header .navbar{
+    background:royalblue;}
+
+h2 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+}
+
+hr{
+    background-color: var(--celeste);
+    width: 90%;  
+    margin: 60px; 
+    
+}
+
