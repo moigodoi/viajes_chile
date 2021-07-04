@@ -11,7 +11,10 @@
      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
      crossorigin="anonymous"
-   />
+     />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&family=Lobster+Two&display=swap" rel="stylesheet">
 
    <!--css boostrap 4.6.0-->
    <link
@@ -46,7 +49,6 @@
                     width="30"
                     height="30"
                     alt="logo"
-                />
                 </a>
 
                 <a class="navbar-brand" href="#">Viajes Chile</a>
@@ -62,7 +64,7 @@
                     <span class="navbar-toggler-icon"></span>
                  </button>
                  <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto">
                          <li class="nav.item">
                              <a class="nav-link" href="#">Inicio</a>
                          </li>
@@ -73,7 +75,7 @@
                             <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav.item">
-                            <a class="nav-link" href="#Contacto">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                  </div>
@@ -226,27 +228,59 @@
         </div>
     </div>
 
-
-    <footer class="contacto">
-        <section id="contacto"></section>
-        <h3 class="foot">VIAJES CHILE
-            
-            <a href="https://github.com">
-                <i class="fab fa-github-square fa-1x"></i>
-            </a>
-            <a href="https://twitter.com">
-                <i class="fab fa-twitter-square fa-1x"></i>
-            </a>
-            <a href="https://linkedin.com">
-                <i class="fab fa-linkedin fa-1x"></i>
-            </a>
-            <a href="https://facebook.com">
-                <i class="fab fa-facebook-square fa-1x"></i>
-            </a>
-        </h3>
+    <!--Contacto Typeform-->
+    <section class="container-contacto" id="contacto">    
+        <div class="titulo-contacto">
+            <h1>Contacto</h1>
+        </div>    
+        <div class = "formulario row">
+            <div class="col-lg-12 col-sm-12">
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/NWCESnMm?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+            <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            </div> 
+        </div>
+    </section>
+   
+            <!--Footer con tooltip en iconos-->
+   
+    <footer class="footer">
+        <div class="row ">
+            <div class="col-footer col-lg-6 col-sm-12">
+               <h1 class="">VIAJES CHILE</h1>
+           </div>
+           <div class="col-footer col-lg-6 col-sm-12">
+               <a href="https://github.com/"><i class="fab fa-github-square fa-3x " data-toggle="tooltip" data-placement="top" title="github"></i></a>                    
+               <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-3x" data-toggle="tooltip" data-placement="top" title="linkedin"></i></a>
+               <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square fa-3x" data-toggle="tooltip" data-placement="top" title="twitter"></i></a>
+               <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square fa-3x" data-toggle="tooltip" data-placement="top" title="facebook"></i></a>
+           </div>
+        </div>
     </footer>
 
-    
+    <!--Llamada archivo JS-->
+    <script src="assets/js/script.js"></script>
+
+<!--    <div class="container">
+        <footer class="contacto">
+            <section id="contacto"></section>
+            <h3 class="foot">VIAJES CHILE
+                
+                <a href="https://github.com">
+                    <i class="fab fa-github-square fa-1x"></i>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter-square fa-1x"></i>
+                </a>
+                <a href="https://linkedin.com">
+                    <i class="fab fa-linkedin fa-1x"></i>
+                </a>
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook-square fa-1x"></i>
+                </a>
+            </h3>
+        </footer>-->
+<!--    </div>-->
+
     <!--jquery 3.6.0.slim-->
     <script
         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
