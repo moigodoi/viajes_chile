@@ -1,7 +1,7 @@
-:root {
+/*:root {
     --celeste: #289dad;
     --blanco: #fff;
-}
+}*/
 
 html{
     scroll-behavior: smooth;
@@ -34,7 +34,7 @@ h2 {
 }
 
 hr{
-    background-color: var(--celeste);
+    background-color: #289dad;
     width: 90%;  
     margin: 60px; 
     
@@ -57,8 +57,8 @@ p{
     
 }
 .fav-icon{
-    color:var(--blanco);
-    background-color: var(--celeste);
+    color:#fff;
+    background-color: #289dad;
     padding: 8px;
     border-radius: 3px;
 
@@ -73,8 +73,8 @@ p{
        
 }
 .card-body{
-    background: var(--celeste);
-    color: var(--blanco);
+    background: #289dad;
+    color: #fff;
 }
 
 .col{
@@ -129,6 +129,6 @@ footer{
 }
 
 .fab {
-    color: var(--blanco);
+    color: #fff;
 }
 
