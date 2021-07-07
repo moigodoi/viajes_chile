@@ -7,17 +7,23 @@ html{
     scroll-behavior: smooth;
 }
 
+.html,body{
+    min-height:100vh;
+}
 body{
     font-family: "Lobster", cursive;
     font-family: "Cabin", sans-serif;
     background: #000;
 }
-
+/*
 .img1{
     width: 1220px;
     height: 707px;
 }
-
+*/
+.container {
+    padding: 0px;
+  }
 .header{
     min-height: 100vh;
 }
