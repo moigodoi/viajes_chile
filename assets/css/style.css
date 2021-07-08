@@ -62,6 +62,16 @@ p{
 
     
 }
+
+/* Destacados */
+#Destacados h5{
+    font-weight: bold;
+}
+
+#Destacados p{
+    font-weight: lighter;
+}
+
 .fav-icon{
     color:#fff;
     background-color: #289dad;
@@ -111,21 +121,6 @@ p{
 .titulo-contacto{
     border-bottom: 2px solid #20a5ba;
     margin-bottom: 2rem;
-}
-
-footer{
-    background-color: #20a5ba;
-    color: blanchedalmond;
-    vertical-align:middle;
-    width: 100%;
-}
-
-.col-footer{
-    vertical-align: middle;
-    text-align: center;
-}
-.col-footer a i{
-    color: blanchedalmond;
 }
 
 .contacto h3{

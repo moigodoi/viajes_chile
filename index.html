@@ -191,89 +191,195 @@
 
     <!-- destacados, usando tablas -->
 
-<!--    <div class="d-none d-md-block">-->
-        <section id="destacados">
-            <h2>Destacados</h2>
-        </section>
 
-        <hr />
+    <section id="destacados" class="container py-5">
 
-        <div class="row row-cols-1 row-cols-md-4">
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="..."/>
+        <div>
+            <h1 class="text-center text-white pb-3">Destacados</h1>
+            <hr class="bg-info">
+        </div>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card bg-info text-white border-white">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="..." data-toggle="modal"
+                        data-target="#exampleModal1">
                     <div class="card-body">
                         <h5 class="card-title">Buin</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit voluptatem repudiandae fugiat, similique fuga numquam rerum ad officiis tempora nam suscipit hic minus sunt soluta est eaque vel quam. Dolorem.
-                        </p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore
+                            tempora ipsam accusantium
+                            error autem reiciendis unde voluptatum dolore fuga, et cumque itaque ipsa numquam illum
+                            officiis
+                            nemo provident dolores!</p>
                     </div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="..."/>
+                <div class="card bg-info text-white border-white">
+                    <img src="assets/img/card2t.jpg" class="card-img-top" alt="..." data-toggle="modal"
+                        data-target="#exampleModal2">
                     <div class="card-body">
                         <h5 class="card-title">Lampa</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero itaque quisquam, at animi ipsam voluptates corrupti maiores ut harum, molestiae aspernatur ratione mollitia error nobis voluptate? Dolorum assumenda quaerat suscipit.
-                        </p>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore
+                            tempora ipsam accusantium
+                            error autem reiciendis unde voluptatum dolore fuga, et cumque itaque ipsa numquam illum
+                            officiis
+                            nemo provident dolores!</p>
                     </div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="..."/>
+                <div class="card bg-info text-white border-white">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="..." data-toggle="modal"
+                        data-target="#exampleModal3">
                     <div class="card-body">
                         <h5 class="card-title">Quilicura</h5>
-                        <p class="card-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi obcaecati necessitatibus vitae libero expedita repellat nostrum fugiat sunt voluptatum, ad recusandae vero tenetur ipsam at laborum saepe, hic sint omnis!
-                        </p>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore
+                            tempora ipsam accusantium
+                            error autem reiciendis unde voluptatum dolore fuga, et cumque itaque ipsa numquam illum
+                            officiis
+                            nemo provident dolores!</p>
                     </div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="..."/>
+                <div class="card bg-info text-white border-white">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="..." data-toggle="modal"
+                        data-target="#exampleModal4">
                     <div class="card-body">
                         <h5 class="card-title">El Bosque</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquid a nesciunt aut quas harum tempora officiis rem quod porro delectus, eos iste quae assumenda velit reprehenderit asperiores atque enim!
-                        </p>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore
+                            tempora ipsam accusantium
+                            error autem reiciendis unde voluptatum dolore fuga, et cumque itaque ipsa numquam illum
+                            officiis
+                            nemo provident dolores!</p>
                     </div>
                 </div>
             </div>
         </div>
-<!--    </div>-->
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Buin</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi consectetur officia
+                    cupiditate perferendis nihil fuga labore vitae, eum accusantium sit qui atque ducimus vero? Nesciunt
+                    aperiam amet doloremque delectus!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Lampa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card2t.jpg" class="card-img-top" alt="...">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi consectetur officia
+                    cupiditate perferendis nihil fuga labore vitae, eum accusantium sit qui atque ducimus vero? Nesciunt
+                    aperiam amet doloremque delectus!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Quilicura</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi consectetur officia
+                    cupiditate perferendis nihil fuga labore vitae, eum accusantium sit qui atque ducimus vero? Nesciunt
+                    aperiam amet doloremque delectus!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">El Bosque</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi consectetur officia
+                    cupiditate perferendis nihil fuga labore vitae, eum accusantium sit qui atque ducimus vero? Nesciunt
+                    aperiam amet doloremque delectus!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Contacto Typeform-->
-    <section class="container-contacto" id="contacto">    
-        <div class="titulo-contacto">
-            <h1>Contacto</h1>
-        </div>    
-        <div class = "formulario row">
-            <div class="col-lg-12 col-sm-12">
+    <section id="contacto" class="container text-center py-5">
+        <div>
+            <h1 class="text-white">Contacto</h1>
+            <hr class="bg-info">
+        </div>
+<!--        <div class = "formulario row">
+            <div class="col-lg-12 col-sm-12">-->
+            <!-- Typeform -->
             <div class="typeform-widget" data-url="https://form.typeform.com/to/TCXG6VUg?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
             <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
             </div> 
-        </div>
+<!--        </div>-->
     </section>
    
-            <!--Footer con tooltip en iconos-->
-   
-    <footer class="footer">
-        <div class="row ">
-            <div class="col-footer col-lg-6 col-sm-12">
-               <h1 class="">VIAJES CHILE</h1>
-           </div>
-           <div class="col-footer col-lg-6 col-sm-12">
-               <a href="https://github.com/"><i class="fab fa-github-square fa-3x " data-toggle="tooltip" data-placement="top" title="github"></i></a>                    
-               <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-3x" data-toggle="tooltip" data-placement="top" title="linkedin"></i></a>
-               <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square fa-3x" data-toggle="tooltip" data-placement="top" title="twitter"></i></a>
-               <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square fa-3x" data-toggle="tooltip" data-placement="top" title="facebook"></i></a>
-           </div>
+            <!--Footer con iconos-->
+<footer id="Footer" class="text-center text-white py-2 bg-info">
+    <div class="row container m-auto">
+        <div class="col-12 col-sm-6">
+            <h6 class="text-uppercase">Viajes chile</h6>
         </div>
-    </footer>
+        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+            <a class="text-white" href="https://github.com/"><i data-toggle="tooltip" data-placement="top"
+                    title="GitHub" class="fab fa-github-square fa-3x mx-2"></i></a>
+            <a class="text-white" href="https://linkedin.com/"><i data-toggle="tooltip" data-placement="top"
+                    title="Linkedin" class="fab fa-linkedin fa-3x mx-2"></i></a>
+            <a class="text-white" href="https://twitter.com/"><i data-toggle="tooltip" data-placement="top"
+                    title="Twitter" class="fab fa-twitter-square fa-3x mx-2"></i></a>
+            <a class="text-white" href="https://facebook.com/"><i data-toggle="tooltip" data-placement="top"
+                    title="Facebook" class="fab fa-facebook-square fa-3x mx-2"></i></a>
+        </div>
+
+
+    </div>
+</footer>
+
+
 
     <!--Llamada archivo JS-->
     <script src="assets/js/script.js"></script>
