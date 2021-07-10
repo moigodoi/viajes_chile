@@ -39,6 +39,13 @@ h2 {
     margin-top: 1em;
 }
 
+h6 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    position: top;
+}
+
 hr{
     background-color: #289dad;
     width: 90%;  
@@ -133,3 +140,30 @@ p{
     color: #fff;
 }
 
+/* Invisible texto */
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+  /* Visible texto */
+  figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+  }
+
+  /*footer*/
+
+.footer{
+    background-color: #20a5ba;
+    color: blanchedalmond;
+    vertical-align:middle;
+    width: 100%;
+}
+
+.col-footer{
+    vertical-align: middle;
+    text-align: center;
+}
+.col-footer a i{
+    color: blanchedalmond;
+}
