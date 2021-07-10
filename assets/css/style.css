@@ -15,12 +15,6 @@ body{
     font-family: "Cabin", sans-serif;
     background: #000;
 }
-/*
-.img1{
-    width: 1220px;
-    height: 707px;
-}
-*/
 .container {
     padding: 0px;
   }
@@ -204,3 +198,14 @@ figure:hover:after {
   opacity: 1;
   visibility: visible;
 }
+
+  /* Invisible texto */
+  figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+  /* Visible texto */
+  figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+  }
