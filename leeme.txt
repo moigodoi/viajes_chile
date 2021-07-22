@@ -1,1 +1,1 @@
-https://github.com/moigodoi/viajes_chile.git
+https://moigodoi.github.io/viajes_chile/
